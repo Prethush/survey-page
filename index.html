@@ -17,9 +17,10 @@
                 <input id="email" type="email" class="input" name="email" placeholder="Enter your email" required>
 
             <label id="number-label" for="number">Age</label>
-            <input id="number" type="number" class="input" name="number" min="5" max="17" placeholder="Age" required>
+            <input id="number" type="number" class="input" name="number" min="5" max="12" placeholder="Age" required>
             <label id="dropdown-label" for="dropdown">Which is your grade?</label>
             <select name="dropdown" id="dropdown">
+            <option value="">Select an option</option>
              <option value="first-grade">first grade</option>
              <option value="second-grade">second grade</option>
              <option value="third-grade">third grade</option>
@@ -52,7 +53,13 @@
                     <input type="checkbox" id="check4" value="4" class="checkbox" name="checkbox">Monthly review meeting with parents</input>
                 </label> <label for="check5" id="checkbox-label5">
                     <input type="checkbox" id="check5" value="5" class="checkbox" name="checkbox">Drug test for school workers(teachers included)</input>
-                </label>                  
+                </label>
+                
+                <p>Additional suggestions</p>
+                <label id="textarea-label" for="textarea">
+                    <textarea id="textarea" name="textarea" rows="5" cols="50" placeholder="Enter your comments"></textarea>
+                </label>
+                <button id="submit">submit</button>
                 </form>
     </div>
     </body>
